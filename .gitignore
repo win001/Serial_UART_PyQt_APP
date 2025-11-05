@@ -1,0 +1,124 @@
+# Python
+# ======
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+*.virtualenv
+
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# PyQt
+# ====
+# Compiled UI files (keep if you regenerate from .ui, or track if manually modified)
+# serial_terminal_ui.py  # Uncomment if you regenerate this from .ui file
+
+# Qt Designer backup files
+*.ui~
+*.qmlc
+*.jsc
+
+# IDE / Editor
+# ============
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Spyder
+.spyproject/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Claude Code
+.claude/
+
+# Logs
+# ====
+*.log
+*.txt.log
+
+# OS Specific
+# ===========
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+# Application Specific
+# ====================
+# User settings (if you want to keep settings private)
+# Uncomment if you don't want to share QSettings files
+# *.ini
+# *.conf
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Generated icons (optional - uncomment if you regenerate these)
+# app_icon.png
+# app_icon.ico
+
+# Test data / logs
+test_logs/
+*.csv
+saved_logs/
+
+# Environment variables
+.env
+.env.local
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# pytest
+.pytest_cache/
+.tox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
